@@ -1,0 +1,116 @@
+<!-- 
+  Zeeshan Tanveer
+  217009143
+  Itec 3020 A1
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <title> Exercise 1 </title>
+  <meta charset="utf-8" />
+</head>
+
+<link rel="stylesheet" href="styles.css">
+
+<body>
+
+<!--WHere all the conent of the website is placed -->
+  <h1 class="title">Zee Products</h1>
+
+  <!-- this is the logo image, used css for it to adjust in the corner-->
+  <img id="logo" src="logotwo.png" alt="logo" width="150" height="150">
+
+  <h1 id="cart">🛒</h1>
+
+  <!-- Used a list for the navigation bar connected the div with menuformat and the actual list with its own class -->
+  <div class="menuformat">
+    <ul class="menu-ul">
+      <li class="menu-li"><a> </a></li>
+      <li class="menu-li"><a>Home</a></li>
+      <li class="menu-li"><a>More Products</a></li>
+      <li class="menu-li"><a>About</a></li>
+      <li class="menu-li"><a>Contact</a></li>
+      <li class="menu-li"><a><input type="text" placeholder="Search Product" style="width: 300px;"></a></li> <!-- also put the search bar in the  menu -->
+    </ul>
+  </div>
+
+
+
+  <!-- this div contains the title of product, picture, discription and the list features-->
+  <div>
+    <h2>The Compact Clock</h2>
+    <div class ="prod-pic">
+    <img src="product.png" alt="product" width="500" height="300">
+  </div>
+    <p>This is a fun little digital clock that is small compact and durable and can be put<br>
+      anywhere in your, home. From your dresser to your nightstand to the kitchen table, it<br>
+      would fit right in anywhere. This clock can also work as an Alarm clock, timer, <br>
+      start/stopwatch, and even displays the date. The Clock screen can light up to check <br>
+      the time in the dark for your convenience.
+    </p>
+
+    <h3>Features: </h3>
+    <ul id="desc-list">
+      <li>Compact</li>
+      <li>Durable</li>
+      <li>Stopwatch</li>
+      <li>Alarm</li>
+      <li>Date</li>
+      <li>Backlight</li>
+      <li>Durable</li>
+      <li>Long Lasting Battery</li>
+    </ul>
+  </div>
+
+
+
+
+<!-- This div contains three pictures to show more of the product (makes the page look nicer) -->
+  <div class="side-pic">
+    <img src="pic1.png" alt="pic1" width="80" height="80">
+
+    <img src="pic2.png" alt="pic2" width="80" height="80">
+
+    <img src="pic3.png" alt="pic3" width="80" height="80">
+
+  </div>
+
+
+  <!-- This div contains the option button to choose the colour of the clock, used classes for the location and overal design and id for each buttons colour. -->
+  <div class="option-buttons">
+    <h2>Colours: </h2>
+
+    <button class="button-design" id="button1" type="button">Blue</button>
+
+    <button class="button-design" id="button2" type="button">Green</button>
+
+    <button class="button-design" id="button3" type="button">Red</button>
+
+    <button class="button-design" id="button4" type="button">Purple</button>
+
+  </div>
+
+  <!-- reused the same class for the design and ids for the colour-->
+  <div class="cart-buttons">
+    <button class="button-design" id="button-cart" type="button">Add to Cart</button>
+    <a href="viewcart.html">
+    <button class="button-design" id="button-cart" type="button">View Cart</button>
+    </a>
+  </div>
+
+  <!-- This div containted the recommended products and was set to the bottom of the page -->
+  <div class="related">
+
+    <h2>Recommeneded Products</h2>
+    <img src="rec1.png" alt="rec1" width="100" height="100">
+
+    <img src="rec2.png" alt="rec2" width="100" height="100">
+
+    <img src="rec3.png" alt="rec3" width="100" height="100">
+  </div>
+
+</body>
+
+</html>

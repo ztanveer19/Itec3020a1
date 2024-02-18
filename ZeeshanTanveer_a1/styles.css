@@ -1,0 +1,136 @@
+/*This is the css file*/
+  body {
+    margin: 0;
+    background-color: lightgray;
+    font-family: "Helvetica";
+  }
+ 
+  .menuformat {
+    padding: 0%;
+    margin: 0 auto;
+    background-color: white;
+
+  }
+
+  .title {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  #logo {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    max-width: 10%;
+    height: auto;
+  }
+
+  #cart {
+    position: absolute;
+    top: 10px;
+    left: 1375px;
+    max-width: 5100%;
+    height: auto;
+  }
+
+  .menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+
+  .menu-li {
+    float: left;
+  }
+
+  .menu-li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .menu-li a:hover {
+    background-color: #111;
+  }
+
+  .option-buttons {
+    position: absolute;
+    top: 225px;
+    left: 825px;
+  }
+
+  .cart-buttons {
+    position: absolute;
+    top: 400px;
+    left: 880px;
+  }
+
+  .prod-pic img{
+    border-radius: 10%;
+  }
+
+  .side-pic {
+    position: absolute;
+    top: 250px;
+    left: 510px;
+  }
+
+  .side-pic img {
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .related {
+    position: absolute;
+    top: 680px;
+    left: 825px;
+  }
+  .related img{
+    border-radius: 10%;
+  }
+
+  .related img {
+    margin-right: 20px;
+  }
+
+  .button-design {
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 8px;
+  }
+
+  #button1 {
+    background-color: #008CBA;
+  }
+
+  #button2 {
+    background-color: #1fba00;
+  }
+
+  #button3 {
+    background-color: #ba0000;
+  }
+
+  #button4 {
+    background-color: #6c00ba;
+  }
+
+  #button-cart {
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  #desc-list{
+    list-style-type: circle;
+  }
